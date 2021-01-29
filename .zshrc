@@ -50,4 +50,4 @@ count_r() {
 
 alias pdfcropall='find . -name "*.pdf" -exec pdfcrop {} {} \;'
 alias cleanlatex='find . \( -name "*.log" -o -name "*.aux" -o -name "*.synctex.gz" \) -exec rm {} \;'
-alias zshrc='vim /Users/user/.zshrc'
+alias zshrc='vim '${home_folder}'/.zshrc'
